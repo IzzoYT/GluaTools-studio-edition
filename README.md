@@ -1,7 +1,7 @@
 
 
 <p align="center">
-  <img src="assets/gluatools-community.png" alt="GLuaTools Community Edition" width="750">
+  <img src="assets/GluaToolsStudio.png" alt="GluaToolsStudio.png" width="750">
 </p>
 
 <p align="center">
