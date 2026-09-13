@@ -8,118 +8,220 @@
   A modern Steam Lua, plugin, manifest, and developer utility.
 </p>
 
+# GLuaTools Studio Edition
 
-# GLuaTools
+**GLuaTools Studio Edition** is the power-user version of GLuaTools, built for developers, modders, plugin creators, and advanced Steam users who want a complete workspace for managing Lua files, Steam tools, plugins, debugging, profiles, and development workflows from one application.
 
-GLuaTools is a community-driven fork of **LuaTools** focused on improving the Steam Lua and manifest management experience with additional features, fixes, customization, and quality-of-life improvements.
+Studio Edition expands the standard GLuaTools experience into a full development environment with a custom desktop interface, advanced plugin management, Steam DevTools integration, workspace profiles, diagnostics, theme customization, update tools, rollback support, and deeper configuration options.
 
-> GLuaTools is an independent fork and is not affiliated with Valve or Steam.
+The goal of Studio Edition is to bring the most important GLuaTools workflows together into a single organized workspace instead of requiring users to jump between folders, scripts, GitHub releases, Steam directories, debugging tools, and external utilities.
 
-## Features
+## Studio Workspace
 
-* Improved LuaTools experience
-* Steam Lua management
-* Manifest management
-* Quality-of-life improvements
-* Bug fixes and stability improvements
-* Additional customization options
-* Cleaner and easier-to-use workflow
-* Continued improvements over the original project
+Studio Edition introduces a dedicated **Studio Workspace** system.
 
-## Why GLuaTools?
+Workspaces allow you to create different development environments and switch between them quickly.
 
-GLuaTools was created to build on top of LuaTools while keeping the simple utility-focused experience of the original project.
+A workspace can remember things such as:
 
-The goal is to:
+* Active theme
+* Marketplace source
+* Advanced tool settings
+* Development preferences
+* Plugin workflow configuration
+* Studio-specific settings
 
-* Add useful new features
-* Fix issues found in the original project
-* Improve usability
-* Keep the project actively maintained
-* Make configuration and management easier
+You can create multiple workspaces for different projects, duplicate existing setups, update a workspace with your current configuration, or switch between development environments with one click.
 
-## Installation
+This makes it easy to maintain separate setups for testing, plugin development, content creation, debugging, or everyday Steam use.
 
-1. Download the latest release from the **Releases** page.
-2. Extract the downloaded archive.
-3. Open the GLuaTools folder.
-4. Run the application.
-5. Follow the instructions provided inside the program.
+## Advanced Plugin Center
 
-Always download GLuaTools directly from the official GitHub repository.
+GLuaTools Studio includes an expanded plugin management system designed to make installing and maintaining plugins much easier.
 
-## Updating
+Features include:
 
-When a new version is released:
+* Plugin Marketplace
+* GitHub-based plugin releases
+* Search and filtering
+* Plugin installation
+* Plugin updates
+* Update All
+* Enable / disable plugins
+* Installed plugin tracking
+* Version comparison
+* SHA-256 verification when available
+* Automatic backups
+* Plugin rollback
+* Uninstall support
+* Prerelease support
+* Offline marketplace caching
+* Millennium plugin support
+* GLuaTools-managed plugin support
 
-1. Download the newest release.
-2. Replace your existing GLuaTools files.
-3. Keep any configuration files you want to preserve.
+The Plugin Center is designed to work more like a package manager than a traditional manual plugin installer.
 
-More convenient update methods may be added in future versions.
+## Steam DevTools
 
-## Building From Source
+Studio Edition includes a dedicated **Steam DevTools** environment for developers working with Steam’s frontend.
 
-Clone the repository:
+It can interact with Steam’s Chromium DevTools Protocol interface and provide information about available Steam browser targets.
 
-```bash
-git clone https://github.com/YOUR-USERNAME/GLuaTools.git
-```
+Features include:
 
-Enter the project directory:
+* Steam process detection
+* CDP connection status
+* Port 8080 diagnostics
+* Steam target discovery
+* Open Steam DevTools
+* Reload Steam UI
+* Restart Steam
+* Open Steam installation folder
+* Open Millennium folder
+* Open plugin folders
+* CDP target information
+* Developer diagnostics
 
-```bash
-cd GLuaTools
-```
+These tools make Studio Edition especially useful for Steam frontend development and plugin debugging.
 
-Then build the project using the development environment and dependencies required by the original LuaTools project.
+## Lua Management
 
-More detailed build instructions may be added as GLuaTools develops.
+GLuaTools Studio keeps the original Lua management features while integrating them into the redesigned interface.
 
-## Credits
+You can manage:
 
-GLuaTools is based on **LuaTools**.
+* Lua entries
+* Imported Lua files
+* Installed scripts
+* Script locations
+* Existing GLuaTools Lua workflows
+* Steam-related Lua utilities
 
-Huge credit goes to the original LuaTools developers and contributors for creating the project this fork is based on.
+The Lua tools remain compatible with the existing GLuaTools backend while gaining access to the newer Studio interface and development features.
 
-If you use or redistribute GLuaTools, please respect the license and attribution requirements of the original project.
+## Builds, Depots, and Steam Tools
 
-## Contributing
+Studio Edition also preserves the existing Steam workflow tools.
 
-Contributions are welcome.
+This includes support for:
 
-You can help by:
+* Builds
+* Depots
+* Downloads
+* Steam paths
+* Mode tools
+* Fix Center
+* Steam utility actions
+* Installation helpers
+* Existing GLuaTools Steam workflows
 
-* Reporting bugs
-* Suggesting features
-* Improving documentation
-* Fixing issues
-* Submitting pull requests
+Studio is designed to expand GLuaTools rather than remove the functionality users already rely on.
 
-When reporting a bug, include as much information as possible, such as:
+## Themes
 
-* GLuaTools version
-* Operating system
-* What you were trying to do
-* What happened
-* Any error messages or logs
+Studio Edition includes the complete GLuaTools theme system along with exclusive Studio themes.
 
-## Disclaimer
+Studio-exclusive themes include:
 
-GLuaTools is provided as-is.
+* **Studio Graphite**
+* **Studio Gold**
+* **Studio Aurora**
 
-Use it at your own risk. The developers and contributors are not responsible for account issues, data loss, software problems, or other damage caused by improper use of the program.
+These are added alongside the standard GLuaTools themes.
 
-GLuaTools is not affiliated with, endorsed by, or sponsored by Valve Corporation, Steam, or the original LuaTools developers.
+Themes can change the appearance of:
 
-## License
+* Sidebar
+* Page backgrounds
+* Cards
+* Borders
+* Accent colors
+* Text colors
+* Status elements
+* Developer pages
 
-GLuaTools follows the licensing requirements of the original LuaTools project.
+The signature Studio identity uses a **black, silver, and blue** visual style.
 
-See the `LICENSE` file for more information.
+## Diagnostics
 
----
+Studio includes diagnostics tools intended for development and troubleshooting.
 
-### GLuaTools
+You can export a diagnostic snapshot containing information such as:
 
-**A community-driven LuaTools fork with extra features, fixes, and improvements for Steam Lua and manifest management.**
+* GLuaTools Studio version
+* Windows version
+* Runtime version
+* Current theme
+* Marketplace configuration
+* Plugin settings
+* Advanced tools configuration
+* Workspace information
+* Relevant Studio settings
+
+Diagnostic exports are saved as JSON so they can easily be shared when troubleshooting an issue.
+
+## Expanded Settings
+
+Studio Edition includes a larger Settings area for users who want more control over the application.
+
+Settings can include options for:
+
+* Theme selection
+* Plugin auto updates
+* Marketplace URL
+* Plugin backups
+* Prerelease plugins
+* Advanced tools
+* DevTools refresh interval
+* Steam restart confirmation
+* Startup behavior
+* Minimize behavior
+* Compact sidebar
+* Update checks
+* Developer settings
+* Interface preferences
+
+Studio Edition is intended to expose more configuration instead of hiding advanced options.
+
+## Safety and Rollback
+
+GLuaTools Studio tries to make plugin updates safer by using temporary staging locations and backups before replacing existing installations.
+
+The typical update flow is:
+
+1. Check for a new GitHub release
+2. Download the release asset
+3. Verify the file when a release digest is available
+4. Extract to a temporary staging directory
+5. Backup the current plugin
+6. Replace the installed version
+7. Update the local plugin registry
+8. Keep the previous version available for rollback
+
+If an update causes problems, users can restore the previous plugin version.
+
+## Designed for Power Users
+
+GLuaTools Studio Edition is aimed at users who want more than a basic installer.
+
+It is especially useful for:
+
+* Steam mod developers
+* Lua developers
+* Plugin creators
+* Frontend modders
+* Advanced GLuaTools users
+* Debugging and testing
+* Content creators with multiple mod setups
+* Users maintaining several development configurations
+
+## Edition Information
+
+**Product:** GLuaTools Studio Edition
+**Edition:** Studio
+**Version:** 2.0
+**Primary Style:** Black + Silver/Blue
+**Focus:** Development, plugins, debugging, customization, and advanced Steam workflows
+
+**GLuaTools Studio Edition — more tools, more control, one complete workspace.**
+
