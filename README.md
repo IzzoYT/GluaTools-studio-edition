@@ -16,6 +16,18 @@ Studio Edition expands the standard GLuaTools experience into a full development
 
 The goal of Studio Edition is to bring the most important GLuaTools workflows together into a single organized workspace instead of requiring users to jump between folders, scripts, GitHub releases, Steam directories, debugging tools, and external utilities.
 
+
+## Star History
+
+<a href="https://www.star-history.com/?repos=izzoyt%2Fgluatools-studio-edition&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=izzoyt/gluatools-studio-edition&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=izzoyt/gluatools-studio-edition&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=izzoyt/gluatools-studio-edition&type=date&legend=top-left" />
+ </picture>
+</a>
+
+
 ## Studio Workspace
 
 Studio Edition introduces a dedicated **Studio Workspace** system.
